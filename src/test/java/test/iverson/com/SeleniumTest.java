@@ -44,6 +44,7 @@ public class SeleniumTest {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         try{
+            //this is a test
             //driver.manage().window().setPosition(new Point(-1000,1));
             driver.manage().window().maximize();
             driver.get("http://www.baidu.com");
